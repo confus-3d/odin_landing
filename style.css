@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: "Roboto", "Times New Roman", Arial;
 }
 
 .header_container,
@@ -55,6 +56,15 @@ body {
     flex: 1;
 }
 
+.face {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    transform: scaleX(-1);
+}
+
 .grid {
     display: flex;
     flex-direction: column;
@@ -96,8 +106,9 @@ body {
 }
 
 .sentence {
-    font-style: oblique;
+    font-style: italic;
     font-size: larger;
+    font-weight: lighter;
 }
 
 .author {
