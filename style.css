@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+}
+
+.header_container,
+.hero_container,
+.grid_container,
+.quote_container,
+.banner_container,
+.footer_container {
+    display: flex;
+    justify-content: center;
+}
+
+.header_container,
+.hero_container,
+.footer_container {
+    background-color: rgb(33, 41, 54);
+    color: white;
+}
+
+.quote_container {
+    background-color: lightgray;
+}
+
+.banner_container {
+    color: white;
+}
+
+.header {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.hero {
+    width: 700px;
+    margin: 50px 0 50px 0;
+    display: flex;
+    align-items: center;
+}
+
+.half {
+    flex: 1;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.object {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.minitext {
+    font-size: smaller;
+    width: 100px;
+    margin: 0px;
+    text-align: center;
+}
+
+.quote {
+    width: 600px;
+    padding: 50px 0 50px 0;
+}
+
+.sentence {
+    font-style: oblique;
+    font-size: larger;
+}
+
+.author {
+    text-align: right;
+    font-weight: 800;
+}
+
+.banner {
+    width: 700px;
+    background-color: rgb(78, 128, 238);
+    margin: 50px 0 50px 0;
+    padding: 25px 0 25px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color: rgb(78, 128, 238);
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.white {
+    border: 1px solid white;
+}
